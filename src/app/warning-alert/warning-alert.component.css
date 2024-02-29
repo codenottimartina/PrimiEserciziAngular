@@ -1,0 +1,8 @@
+.warning-alert{
+    background-color: rgba(243, 25, 18, 0.252);
+    height: 50px;
+    border: 1px solid red;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}

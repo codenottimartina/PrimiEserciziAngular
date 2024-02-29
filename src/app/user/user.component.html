@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row col-12">
+        <h2>User</h2>
+        <input
+        type="text"
+        class="form-control"
+        [(ngModel)]="username"
+        >
+        <p>{{username}}</p>
+        <button
+        class="btn btn-primary"
+        [disabled]="username === ''"
+        (click)="username=''"
+        >Add Username</button>
+        <p>username : {{username}}</p>
+    </div>
+</div> 
